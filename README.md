@@ -71,7 +71,7 @@ The `src/services/blockchain.js` file contains placeholder functions to replace 
 
 ### Demo Credentials
 
-**Admin:** Any email + password (UI validation only)  
+**Admin:** email + password 
 **User:** Only admin-approved voters can login. Admin adds voters in the Admin Dashboard under "Approved Voters".
 
 ### Deployment
@@ -87,3 +87,4 @@ npx vercel
 
 1. Admin logs in → Adds approved voters (name, email, password) → Adds candidates → Starts election
 2. Approved voters log in with their credentials → Cast one vote → View results after election ends
+
